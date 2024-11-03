@@ -1,0 +1,37 @@
+body {
+    background-color:#e49be4;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: #100218;
+}
+
+header div {
+  padding: 10px 20px;
+  transition: color 0.3s;
+  background-color:#ce69ce;
+}
+
+header div p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+header div a {
+  text-decoration: none;
+}
+
+header div:hover {
+  background-color: #ec671a;                  
+}
+
+
+
+
+  
